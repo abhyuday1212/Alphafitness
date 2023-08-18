@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Abhyuday Fitness</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="stylesheet" href="css/style.css">
+      <style>
+            /* CSS reset */
+            body {
+                  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+                  margin: 0px;
+                  color: white;
+                  padding: 0px;
+                  background-image: url(rnbg.jpg);
+                  
+
+            }
+
+            .left {
+
+                  position: absolute;
+                  left: 74px;
+                  top: 12px;
+                  display: inline-block;
+                  line-height: 0px;
+
+                  /* border: 2px solid red; */
+                  /* posiitoning can be easily achived by flex box and float */
+                  /* background-color: black; */
+            }
+
+            .left div {
+                  text-align: center;
+            }
+
+            .left img {
+                  width: 125px;
+                  /* filter: invert(100%); */
+
+
+            }
+
+            .mid {
+                  /* display: block; */
+                  top: 23px;
+                  position: absolute;
+                  width: 47%;
+                  margin: 4px auto;
+                  left: 387px;
+                  font-size: 22px;
+                  /* border: 2px solid green; */
+                  /* above 3 condition are required to make any item in centre */
+            }
+
+            .right {
+                  position: absolute;
+                  right: 22px;
+                  top: 44px;
+                  display: inline-block;
+            }
+
+            .navbar {
+                  display: inline-block;
+            }
+
+            .navbar li {
+                  display: inline-block;
+            }
+
+            .navbar li a {
+                  color: white;
+                  text-decoration: none;
+                  padding: 22px 12px;
+            }
+
+            .navbar li a:hover,
+            .navbar li a.active {
+                  text-decoration: underline;
+                  color: grey;
+            }
+
+            .btn {
+                  font-size: 12px;
+                  margin: 0px 9px;
+                  background-color: rgb(83, 83, 83);
+                  color: white;
+                  padding: 10px 64px;
+                  border: 2px solid rgb(0, 0, 0);
+                  border-radius: 20px;
+                  cursor: pointer;
+            }
+
+            .btn:hover {
+                  background-color: rgb(173, 169, 169);
+            }
+
+            .container {
+                  border: 2px solid rgb(255, 255, 255);
+                  margin: 146px 79px;
+                  padding: 27px 162px;
+                  width: 20%;
+                  border-radius: 23px;
+
+            }
+
+
+            .form-group input {
+                  font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+                  font-size: 18px;
+                  text-align: center;
+                  display: block;
+                  width: 283px;
+                  padding: 2px;
+                  border: 0px solid grey;
+                  margin: 16px auto;
+                  border-radius: 582px;
+            }
+
+            .container h1 {
+                  text-align: center;
+                  width: 327px;
+                  /* always use % in width case otherwise you will have to take a big number */
+
+
+            }
+
+            .container button {
+                  display: block;
+                  width: 91%;
+                  text-align: center;
+                  margin: 5px 27px;
+
+            }
+            /* .Bottom{
+
+                  width: 20px;
+                  top: 200px;
+                  margin: 3px;
+
+
+
+            } */
+      </style>
+</head>
+
+
+<body>
+      <header class="header">
+            <!-- ---------------------------------------------------------- -->
+
+            <!-- left box for logo -->
+            <div class="left">
+                  <img src="123.png" alt="">
+
+
+                  <div>
+                        Abhyuday Fitness
+                  </div>
+            </div>
+
+            <!-- --------------------------------------------------------------------- -->
+            <div class="mid">
+                  <!-- mid box for navbar -->
+
+                  <ul class="navbar">
+                        <li><a href="https://google.com" target="_blank">Home</a></li>
+                        <li><a href="#" target="_blank">About Us</a></li>
+                        <li><a href="#" target="_blank">Fitness Calculator</a></li>
+                        <li><a href="#" target="_blank">Contact Us</a></li>
+
+
+                  </ul>
+            </div>
+            <!-- --------------------------------------------------------------------- -->
+
+
+
+            <div class="right">
+                  <!-- right box for buttons -->
+                  <button class="btn">
+                        Register Now!
+
+
+                  </button>
+            </div>
+            <!-- --------------------------------------------------------------------- -->
+
+            <!-- <div class="Bottom">
+                 
+                  <iframe width="260" height="115" top="1000px" right="2px" src="https://www.youtube.com/embed/t4vKPhjcMZg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div> -->
+
+
+      </header>
+
+      <div class="container">
+            <h1> Join The Best Gym Of Delhi! </h1>
+            <form action="noaction.php">
+                  <div class="form-group">
+
+                        <input type="text" name="" placeholder="Enter your Name ">
+
+                  </div>
+                  <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Age ">
+
+                  </div>
+                  <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Gender ">
+
+                  </div>
+                  <div class="form-group">
+                        <input type="text" name="" placeholder="Enter your Locality ">
+
+                  </div>
+
+
+            </form>
+
+
+
+
+            <button class="btn"> Submit</button>
+
+
+
+
+
+
+
+
+      </div>
+
+</body>
+
+</html>
